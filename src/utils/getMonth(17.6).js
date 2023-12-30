@@ -25,6 +25,7 @@ export function getMonth(n) {
     } else if (n === 12) {
       result = "декабрь";
     };
+    return result;
   };
   
   getMonth(12);

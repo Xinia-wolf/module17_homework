@@ -1,14 +1,12 @@
 import { getMonth } from "../../utils/getMonth(17.6).js";
 
-describe("tests for getMonth function", () =>{
-    const august = 8;
-    const march = 3;
-
+describe("tests for getMonth function", () => {
+   
     it("should operate correctly with number 8", () => {
-        expect(getMonth(august)).toBe("август");
+        expect(getMonth(8)).toBe("август");
     }),
     it("should operate correctly with number 3", () => {
-        expect(getMonth(march)).toBe("март");
+        expect(getMonth(3)).toBe("март");
     })
 
 })
